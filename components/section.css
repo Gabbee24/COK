@@ -1,0 +1,13 @@
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.testimonial{
+    background-color: #17bf9e;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 2rem;
+    user-select: none;
+    max-width:'200px'
+}
