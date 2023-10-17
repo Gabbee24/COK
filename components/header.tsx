@@ -18,7 +18,7 @@ const Header: any = () => {
               justifyContent: "center",
               height: "100%"}}>
               <RiPantoneLine style={{'margin':'0px','color':' #0a2b1e'}} /> COK 
-            <p style={{'color':'rgb(37, 20, 20)'}}>e-learning</p>
+            <p style={{'color':'rgb(37, 20, 20)'}}>Academy</p>
             </h2>
           </div>
 

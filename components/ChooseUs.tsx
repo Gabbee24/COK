@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import {AiOutlinePlayCircle} from 'react-icons/ai'
 
-import chooseImg from '../public/why-choose-us.png';
+// import chooseImg from '../public/why-choose-us.png';
 // import "./choose-us.css";
 
 import ReactPlayer from "react-player";
@@ -39,7 +39,8 @@ const ChooseUs = () => {
                 height="350px"
                 />
                 ) : (
-                    <Image style={{borderRadius:'10px'}} src={chooseImg} alt="choose us"  height={400} width={1000} ></Image>
+                    <Image style={{borderRadius:'10px'}} src={'/why-choose-us.png'} alt="choose us"  height={400} width={1000} ></Image>
+                    // <Image style={{borderRadius:'10px'}} src={chooseImg} alt="choose us"  height={400} width={1000} ></Image>
                     )}
 
               {!showVideo && (
